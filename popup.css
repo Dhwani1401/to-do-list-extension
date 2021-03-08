@@ -1,0 +1,52 @@
+body{
+  background-image: url("bg6.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 1900px 1600px;
+}
+div {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: RoyalBlue;
+  font-weight: bold;\
+  justify:center;
+}
+h3 {
+  text-align: left;
+  font-family: cursive;
+  font-size: 30px;
+  color:RoyalBlue;
+  justify:center;
+}
+button{
+justify:center;
+  color: RoyalBlue;
+  border-style: outset;
+  border-color: RoyalBlue ;
+  border-width: 5px;
+  padding: 10px;
+  margin: 0;
+ position: absolute;
+ left: 55%;
+ top:19.4%;
+}
+li{
+  justify:left;
+  font-family: cursive;
+  font-size: 30px;
+  color: RoyalBlue;
+}
+input{
+  justify:center;
+  color: RoyalBlue;
+  padding: 10px;
+  border-width: : 20px;
+  border-color: RoyalBlue;
+  border-style: outset;
+  margin: 0;
+ position: absolute;
+ left: 40%;
+ top: 20%;
+
+}

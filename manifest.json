@@ -1,0 +1,13 @@
+{
+  "name": "To-Do List",
+  "description": "This function organizes tasks in the form of a To-Do List",
+  "version": "1.0",
+  "manifest_version":2,
+"browser action":{
+  "default_icon":"icon.png",
+  "default_popup":"popup.html"},
+  "permissions":[
+    "tabs",
+    "storage"
+  ]
+}
