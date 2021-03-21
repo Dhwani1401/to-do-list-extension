@@ -1,5 +1,6 @@
 //This section of code is to allow user to add tasks//
-function myFunction() {
+document.getElementById("button1").addEventListener("click", myFunction);
+ function myFunction(){
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);

@@ -11,17 +11,17 @@ div {
   font-family: cursive;
   color: RoyalBlue;
   font-weight: bold;
-  justify:center;
+  justify-conten:center;
 }
 h3 {
   text-align: left;
   font-family: cursive;
   font-size: 20px;
   color:RoyalBlue;
-  justify:center;
+justify-content:center;
 }
 button{
-justify:center;
+justify-content:center;
   color: RoyalBlue;
   border-style: outset;
   border-color: RoyalBlue ;
@@ -33,13 +33,14 @@ justify:center;
  top:19.4%;
 }
 li{
+  justify-content: flex-start;
   margin-top: 30px;
   font-family: cursive;
   font-size: 20px;
   color: RoyalBlue;
 }
 input{
-  justify:center;
+  justify-content:center;
   color: RoyalBlue;
   padding: 10px;
   border-width: : 20px;
