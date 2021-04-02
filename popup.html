@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-<Title>  To-Do List </title>
-  <link rel="stylesheet" href="popup.css">
-</head>
- <body>
-<div id="myDiv"> My To-Do List </div>
-<h3> Tasks for Today: </h3>
-<input type="text" id="myInput" placeholder="enter task here">
-<button id="button1">Add</button>
-<ol id="myOL">
-<li>Buy Milk</li>
-</ol>
-<script src="popup.js">
-</script>
-</body>
+    <meta charset="utf-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1 id="title">My To-Do List</h1>
+    <div id="addTask">
+      <input type="text" id="myInput" placeholder="enter task here" />
+      <button id="button1">Add</button>
+    </div>
+    <h3>Tasks for Today:</h3>
+    <ol id="myOL"></ol>
+    <button id="button2"> Save List </button>
+    <button id="button3"> Open Previously Saved List </button>
+    
+    <script src="popup.js"></script>
+  </body>
 </html>

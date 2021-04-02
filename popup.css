@@ -1,54 +1,78 @@
-body{
- width:430px ; height:500px;
+body {
+  width: 430px;
+  height: 500px;
   background-image: url("bg6.jpg");
   background-repeat: repeat;
   background-position: center;
   background-size: 1900px 1600px;
 }
-div {
+
+#title {
   text-align: center;
   font-size: 30px;
   font-family: cursive;
   color: RoyalBlue;
   font-weight: bold;
-  justify-conten:center;
+  justify-content: center;
 }
+
 h3 {
   text-align: left;
   font-family: cursive;
   font-size: 20px;
-  color:RoyalBlue;
-justify-content:center;
-}
-button{
-justify-content:center;
   color: RoyalBlue;
-  border-style: outset;
-  border-color: RoyalBlue ;
-  border-width: 5px;
-  padding: 10px;
-  margin: 0;
- position: absolute;
- left: 55%;
- top:19.4%;
+  justify-content: center;
 }
-li{
+
+li {
   justify-content: flex-start;
   margin-top: 30px;
   font-family: cursive;
   font-size: 20px;
   color: RoyalBlue;
 }
-input{
-  justify-content:center;
+
+#addTask {
+  display: flex;
+  margin: 0 auto 0 auto;
+  width: min-content;
+  gap: 10px;
+}
+
+#button1 {
   color: RoyalBlue;
-  padding: 10px;
-  border-width: : 20px;
+  border-style: outset;
+  border-color: RoyalBlue;
+  border-width: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+#myInput {
+  color: RoyalBlue;
+  border-width: 5px;
   border-color: RoyalBlue;
   border-style: outset;
-  margin: 0;
- position: absolute;
- left: 40%;
- top: 20%;
-
+  text-indent: 10px;
+  min-width: 200px;
 }
+#button2 {
+  color: RoyalBlue;
+  border-width: 5px;
+  border-style: outset;
+  border-color: RoyalBlue;
+  padding: 10px 20px 10px 20px;
+}
+#button3{
+  color: RoyalBlue;
+  border-width: 5px;
+  border-style: outset;
+  border-color: RoyalBlue;
+  padding: 10px 20px 10px 20px;
+  }
+  #index{
+    color: Red;
+    border-width: 2px;
+    border-style: outset;
+    border-color: Red;
+    padding: 4px 8px 4px 8px;
+  }
