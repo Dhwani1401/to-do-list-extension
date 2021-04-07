@@ -1,35 +1,58 @@
 body {
   width: 430px;
   height: 500px;
-  background-image: url("bg6.jpg");
+  background-image: url("neonbg.jpg");
   background-repeat: repeat;
   background-position: center;
-  background-size: 1900px 1600px;
+  background-size: 760px 620px;
 }
 
-#title {
-  text-align: center;
+#glow {
   font-size: 30px;
-  font-family: cursive;
-  color: RoyalBlue;
-  font-weight: bold;
-  justify-content: center;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-h3 {
-  text-align: left;
-  font-family: cursive;
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#heading {
   font-size: 20px;
-  color: RoyalBlue;
-  justify-content: center;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-li {
+@-webkit-keyframes heading {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#item {
   justify-content: flex-start;
   margin-top: 30px;
   font-family: cursive;
   font-size: 20px;
-  color: RoyalBlue;
+  color: white;
+  text-align: justify;
+  cursor: pointer;
 }
 
 #addTask {
@@ -40,39 +63,47 @@ li {
 }
 
 #button1 {
-  color: RoyalBlue;
+  color: white;
   border-style: outset;
-  border-color: RoyalBlue;
+  border-color: #ff4da6;
   border-width: 5px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 #myInput {
-  color: RoyalBlue;
+  color: white;
   border-width: 5px;
-  border-color: RoyalBlue;
+  border-color: #ff4da6;
   border-style: outset;
   text-indent: 10px;
   min-width: 200px;
+  background-color: black;
 }
 #button2 {
-  color: RoyalBlue;
+  color: white;
   border-width: 5px;
   border-style: outset;
-  border-color: RoyalBlue;
-  padding: 10px 20px 10px 20px;
+  border-color: #ff4da6;
+  padding: 5px 10px 5px 10px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 10px;
 }
-#button3{
-  color: RoyalBlue;
-  border-width: 5px;
+.button-style {
+  background-color: black;
+  color: #e60073;
+  border-radius: 50%;
   border-style: outset;
-  border-color: RoyalBlue;
-  padding: 10px 20px 10px 20px;
-  }
-  #index{
-    color: Red;
-    border-width: 2px;
-    border-style: outset;
-    border-color: Red;
-    padding: 4px 8px 4px 8px;
-  }
+  border-color: #e60073;
+  cursor: pointer;
+  position: absolute;
+  left: 400px;
+}
+
+#date {
+  color: white;
+  font-size: 15px;
+}
